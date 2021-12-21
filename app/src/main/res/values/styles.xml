@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Status Bar -->
+        <!-- <item name="android:statusBarColor">#00000000</item> -->
+
+        <!--SPLASH TO LOGIN ANIMATION-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <!-- Tool Bar Colors-->
+    <style name="ThemeToolbar" parent="Theme.AppCompat.Light">
+       <item name="colorControlNormal">@color/font_color</item>
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+
+    <!-- ProgressBar Color-->
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- NumberPickerText-->
+    <style name="NumberPickerText">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

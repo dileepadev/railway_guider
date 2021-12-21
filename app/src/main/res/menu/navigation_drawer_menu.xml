@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_account"
+            android:title="@string/activity_account"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_account_icon"/>
+
+        <item
+            android:id="@+id/menu_logout"
+            android:title="@string/activity_logout"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_logout_icon"/>
+
+        <item
+            android:id="@+id/menu_notes"
+            android:title="@string/activity_readingWall"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_reading_icon"/>
+
+        <item
+            android:id="@+id/menu_online_support"
+            android:title="@string/activity_online_support"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_online_support_icon"/>
+
+        <item
+            android:id="@+id/menu_settings"
+            android:title="@string/activity_settings"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_settings_icon"/>
+
+        <item
+            android:id="@+id/menu_share"
+            android:title="@string/activity_share_app"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_share_icon"/>
+
+        <item
+            android:id="@+id/menu_about_us"
+            android:title="@string/activity_about_us"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/font_color"
+            android:icon="@drawable/d_about_us_icon"/>
+
+    </group>
+
+</menu>

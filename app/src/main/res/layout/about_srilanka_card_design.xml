@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/about_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/font_color3"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/about_customer"
+            android:textSize="20sp"
+            android:textColor="@color/font_colorDark"/>
+
+        <TextView
+            android:id="@+id/about_desc"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40sp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/about_img"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/about_customer_desc"
+            android:textColor="@color/font_color"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/about_img"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/train_img_railway2" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
